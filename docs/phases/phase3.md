@@ -2,7 +2,6 @@
 
 ## Rails
 ### Models
-* Picture
 
 ### Controllers
 
@@ -10,15 +9,14 @@
 
 ## Backbone
 ### Models
-* Picture
+
 
 ### Collections
-* Pictures
+
 
 ### Views
 * BarberPhotos (composite view, contains BarberPhotoItem subviews)
 * BarberPhotoItem view
-* 
 
 ## Gems/Libraries
 
