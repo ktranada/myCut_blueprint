@@ -5,7 +5,6 @@
 * Picture
 
 ### Controllers
-API::PicturesController
 
 ### Views
 
