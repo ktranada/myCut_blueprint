@@ -21,13 +21,11 @@
 ## New Shop
 ![new-shop]
 
-## Search Results
-![search-results]
 
 [new-session]: ./wireframes/new_session.png
 [feed-show]: ./wireframes/landing_page.png
 [shop-search]: ./wireframes/shop_searching.png
 [shop-show]: ./wireframes/ShowShop.png
-[barber]: //wireframes/BarberPortfolio.png
+[barber]: ./wireframes/BarberPortfolio.png
 [new-shop]: ./wireframes/NewShop.png
 [new-review]: ./wireframes/NewReview.png
