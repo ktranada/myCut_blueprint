@@ -4,8 +4,7 @@
 ### Models
 
 ### Controllers
-Api::BlogsController (search)
-Api::PostsController (search)
+* Api::ShopsController (search)
 
 ### Views
 
@@ -15,8 +14,10 @@ Api::PostsController (search)
 ### Collections
 
 ### Views
-* BlogSearchItem
-* SearchShow (composite view, contains BlogsIndex and PostsIndex subviews)
+* ShopSearchItem
+* SearchShow (composite view, contains ShopIndex subviews)
 
 ## Gems/Libraries
+
+Google Maps API
 
