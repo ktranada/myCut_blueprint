@@ -1,21 +1,25 @@
-# Phase 3: Editing and Displaying Posts
+# Phase 3: Displaying a Barber's portfolio
 
 ## Rails
 ### Models
+* Picture
 
 ### Controllers
+API::PicturesController
 
 ### Views
 
 ## Backbone
 ### Models
+* Picture
 
 ### Collections
+* Pictures
 
 ### Views
-* PostForm
+* BarberPhotos (composite view, contains BarberPhotoItem subviews)
+* BarberPhotoItem view
+* 
 
 ## Gems/Libraries
-* Filepicker
-* Markdown-js
-* Bootstrap Markdown
+
