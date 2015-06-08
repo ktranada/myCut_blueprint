@@ -8,11 +8,14 @@
 * API::ReviewsController (create, show, destroy, update)
 * API::BarbersController (create, index, update)
 * API::PhotosController (create, index, show)
+* API::TagsController(create, index, show)
+* TaggingsController (create, update, destroy)
 
 ### Views
 * shops/show.json.builder
+* tags/index.json.jbuilder
 
-Do I need to create a a `photos/show.json.jbuilder` to send photo data in order for `reviews` and `barbers` to be able to access them?
+Do I need to create a `photos/show.json.jbuilder` to send photo data in order for `reviews` and `barbers` to be able to access them?
 
 ## Backbone
 ### Models
