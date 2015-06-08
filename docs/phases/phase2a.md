@@ -27,6 +27,9 @@
 
 ### Views
 * SearchShow (composite view, contains ShowIndex (composite view, contains ShopItem subviews) subviews<br> and a singular mapItem view. 
+  * ShowIndex view
+  * ShopItem view
+  * MapItem view
 * newReview
 * mewShopForm
 
