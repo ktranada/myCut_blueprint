@@ -12,7 +12,11 @@ MyCut is a clone of Yelp built on Rails and Backbone. Users can:
 - [ ] Create accounts
 - [ ] Create sessions (log in)
 - [ ] View their account
-- [ ] Enter in their search queries, [find] and [near].
+- [ ] Queries
+  - [ ] Find
+    - [ ] Tags
+    - [ ] Shop name
+  - [ ] Near
 - [ ] View 
   - [ ] Barbershops/salons
   - [ ] Barbers/stylists and their portfolio
@@ -31,7 +35,7 @@ MyCut is a clone of Yelp built on Rails and Backbone. Users can:
 
 ## Implementation Timeline
 
-### Phase 1: User Authentication, Blog Creation (~1 day)
+### Phase 1: User Authentication, Shop creation (~1 day)
 I will implement user authentication in Rails based on the practices learned at
 App Academy. By the end of this phase, users will be able to create blogs using
 a simple text form in a Rails view. The most important part of this phase will
@@ -75,11 +79,10 @@ collections, but they will fetch from the new `search` routes.
 [Details][phase-five]
 
 ### Bonus Features (TBD)
-- [ ] "Like" button and counter for posts
-- [ ] Custom blog urls
-- [ ] Pagination/infinite scroll
+- [ ] Many-to-many association between barber + shop
+- [ ] Display shop by average rating 
 - [ ] Activity history (e.g. likes, reblogs, taggings)
-- [ ] Post types (image posts, quote posts, etc)
+- [ ] Search by Barber
 - [ ] Reblogging
 - [ ] Multiple sessions/session management
 - [ ] User avatars
