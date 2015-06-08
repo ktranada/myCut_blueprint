@@ -7,6 +7,7 @@
 * Barber
 * Review
 * Photo
+* Tags
 
 ### Controllers
 * UsersController (create, new)
