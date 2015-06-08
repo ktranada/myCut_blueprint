@@ -12,6 +12,8 @@
 ### Views
 * shops/show.json.builder
 
+Do I need to create a a `photos/show.json.jbuilder` to send photo data in order for `reviews` and `barbers` to be able to access them?
+
 ## Backbone
 ### Models
 * Shop (parses nested `reviews` and `barbers` association)
