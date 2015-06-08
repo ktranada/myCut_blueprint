@@ -6,6 +6,7 @@
 * Shop
 * Barber
 * Review
+* Photo
 
 ### Controllers
 * UsersController (create, new)
