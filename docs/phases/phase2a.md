@@ -15,7 +15,7 @@
 ## Backbone
 ### Models
 * Shop (parses nested `reviews` and `barbers` association)
-* Review
+* Review (parse nested `photos` association)
 * Barber (parses nested `photos` association)
 * Photo
 
@@ -35,3 +35,5 @@ Is it bad practice to nest composite views?
 
 ## Gems/Libraries
 * GoogleMap API
+* FineUploaded
+* PaperClip
