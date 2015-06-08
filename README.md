@@ -47,13 +47,17 @@ as well as the necessary associations. At this point I will deploy to Heroku.
 
 [Details][phase-one]
 
-### Phase 2: Creating/Viewing Shops and Reviews (~2 days)
-I will add API endpoints to serve shop, tag, review data as JSON,
+### Phase 2a: Creating/Viewing Shops and Reviews (~1-2 days)
+I will add API endpoints to serve shop and review data as JSON,
 then add Backbone models and collections that fetch data from those routes. 
 I will set up the Backbone views so that users will be able to create and view
 shops, tags and reviews.
 
-[Details][phase-two]
+[Details][phase-two-a]
+
+### Phase 2b: Showing a shop, its barbers, and reviews. ~1-2  day
+
+[Details][phase-two-b]
 
 ### Phase 3: Create, view, and edit a barber portfolio (~2 days)
 I will add API endpoints and jbuilder views to serve barber data as JSON, and
@@ -71,8 +75,8 @@ see after logging in.
 
 [Details][phase-four]
 
-### Phase 5: Searching for Blogs and Posts (~2 days)
-I'll need to add `search` routes to both the Blogs and Posts controllers. On the
+### Phase 5: Search for shops (~2 days)
+I'll need to add `search` routes to both the Shops controller. On the
 Backbone side, there will be a `SearchResults` composite view has `BlogsIndex`
 and `PostsIndex` subviews. These views will use plain old `blogs` and `posts`
 collections, but they will fetch from the new `search` routes.
@@ -91,7 +95,8 @@ collections, but they will fetch from the new `search` routes.
   - [ ] Barber/stylist
 - [ ] Modal barber portfolio
 [phase-one]: ./docs/phases/phase1.md
-[phase-two]: ./docs/phases/phase2.md
+[phase-two-a]: ./docs/phases/phase2a.md
+[phase-two-b]: ./docs/phases/phase2b.md
 [phase-three]: ./docs/phases/phase3.md
 [phase-four]: ./docs/phases/phase4.md
 [phase-five]: ./docs/phases/phase5.md
