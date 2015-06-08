@@ -6,21 +6,25 @@
 ## Feed Show (landing page)
 ![feed-show]
 
-## Blog Show
-![blog-show]
+## Searching for shops
+![shop-search]
 
-## Post Show
-![post-show]
+## Show Shop
+![shop-show]
 
-## Post Form
-![post-form]
+## Barber Portfolio
+![barber]
+
+## New Shop
+![new-shop]
 
 ## Search Results
 ![search-results]
 
 [new-session]: ./wireframes/new_session.png
 [feed-show]: ./wireframes/feed_show.png
-[blog-show]: ./wireframes/blog_show.png
-[post-show]: ./wireframes/post_show.png
-[post-form]: ./wireframes/post_form.png
+[shop-search]: ./wireframes/blog_show.png
+[shop-show]: ./wireframes/post_show.png
+[barber]: /
+[new-shop]: ./wireframes/post_form.png
 [search-results]: ./wireframes/search_results.png
