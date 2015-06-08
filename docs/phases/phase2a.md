@@ -6,21 +6,27 @@
 ### Controllers
 * API::ShopsController (create, destroy, index, show)
 * API::ReviewsController (create, show, destroy, update)
+* API::BarbersController (create, index, update)
+* API::PhotosController (create, index, show)
 
 ### Views
 * shops/show.json.builder
 
 ## Backbone
 ### Models
-* Shop (parses nested `reviews` association)
+* Shop (parses nested `reviews` and `barbers` association)
 * Review
+* Barber (parses nested `photos` association)
+* Photo
 
 ### Collections
 * Shops
 * Reviews
+* Barbers
+* Photos
 
 ### Views
-* searchView (composite view, contains searchResults (composite view, contains searchResultItem subviews) subviews<br> and a singular mapItem view. 
+* SearchShow (composite view, contains ShowIndex (composite view, contains ShopItem subviews) subviews<br> and a singular mapItem view. 
 * newReview
 * mewShopForm
 
@@ -28,4 +34,4 @@ Is it bad practice to nest composite views?
 
 
 ## Gems/Libraries
-* Google map marker
+* GoogleMap API
