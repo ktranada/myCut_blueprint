@@ -30,6 +30,7 @@ MyCut is a clone of Yelp built on Rails and Backbone. Users can:
 
 ## Design Docs
 * [View Wireframes][views]
+  * https://cacoo.com/diagrams/1DfWe5hx0FvEvz7p
 * [DB schema][schema]
 
 [views]: ./docs/views.md
