@@ -1,4 +1,4 @@
-# Phase 2: Viewing Shops and Reviews
+# Phase 2a: [Landing Page] Viewing Shop Index + Google Maps API
 
 ## Rails
 ### Models
@@ -20,10 +20,9 @@
 * Reviews
 
 ### Views
-* BlogForm
-* BlogShow (composite view, contains PostsIndex subview)
-* PostsIndex (composite view, contains PostsIndexItem subviews)
-* PostsIndexItem
-* PostShow
+* SearchView (composite view, contains SearchResults (composite view, contains SearchResultItem subviews) subviews<br> and a singular MapItem view. 
+
+Is it bad practice to nest composite views?
+
 
 ## Gems/Libraries
