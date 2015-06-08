@@ -1,23 +1,23 @@
-# Phase 2: Viewing Blogs and Posts
+# Phase 2: Viewing Shops and Reviews
 
 ## Rails
 ### Models
 
 ### Controllers
-Api::BlogsController (create, destroy, index, show)
-Api::PostsController (create, destroy, show, update)
+* API::ShopsController (create, destroy, index, show)
+* API::ReviewsController (create, show, destroy, update)
 
 ### Views
-* blogs/show.json.jbuilder
+* shops/show.json.builder
 
 ## Backbone
 ### Models
-* Blog (parses nested `posts` association)
-* Post
+* Shop (parses nested `reviews` association)
+* Review
 
 ### Collections
-* Blogs
-* Posts
+* Shops
+* Reviews
 
 ### Views
 * BlogForm
