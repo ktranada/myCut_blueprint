@@ -4,6 +4,7 @@
 ### Models
 * User
 * Shop
+* Barber
 * Review
 
 ### Controllers
