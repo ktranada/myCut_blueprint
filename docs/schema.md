@@ -1,26 +1,24 @@
 # Schema Information
 
-## blogs
+## barbers
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-owner_id    | integer   | not null, foreign key (references users)
-title       | string    | not null
+shop_id     | integer   | not null, foreign key (references shops)
+name        | string    | not null
 
-## followings
+## shops
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-blog_id     | integer   | not null, foreign key (references blogs)
-follower_id | integer   | not null, foreign key (references users)
-
-## posts
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-author_id   | integer   | not null, foreign key (references users)
+moderator_id| integer   | not null, foreign key (references users)
 title       | string    | not null
-body        | string    |
+address     | integer   | not null
+city        | string    | not null
+state       | string    | not null
+zip         | integer   | not null
+phone       | integer   | not null
+ord         | float     | not null
 
 ## tags
 column name | data type | details
@@ -32,7 +30,7 @@ label       | string    | not null, unique
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-post_id     | integer   | not null, foreign key (references posts)
+shop_id     | integer   | not null, foreign key (references shops)
 tag_id      | integer   | not null, foreign key (references tags)
 
 ## users
