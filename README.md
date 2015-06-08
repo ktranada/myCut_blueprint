@@ -10,20 +10,22 @@ MyCut is a clone of Yelp built on Rails and Backbone. Users can:
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
 - [ ] Create accounts
-- [ ] Create sessions (log in)
-- [ ] View their account
+  - [ ] Create sessions (log in)
+- [ ] Create Store
 - [ ] Queries
   - [ ] Find
     - [ ] Tags
     - [ ] Shop name
-  - [ ] Near
-- [ ] View 
+    - [ ] Location
+- [ ] View
+  - [ ] Geolocation using Google Maps API
   - [ ] Barbershops/salons
   - [ ] Barbers/stylists and their portfolio
 - [ ] User supplied photos
-- [ ] Read/leave reviews
-  - [ ] Barbeshop/salon
-  - [ ] Barber/stylist
+- [ ] Read/Write shop reviews
+- [ ] Ratings
+  - [ ] Star rating of shop
+  - [ ] Star rating of barber
 
 
 ## Design Docs
@@ -35,29 +37,28 @@ MyCut is a clone of Yelp built on Rails and Backbone. Users can:
 
 ## Implementation Timeline
 
-### Phase 1: User Authentication, Shop creation (~1 day)
-I will implement user authentication in Rails based on the practices learned at
-App Academy. By the end of this phase, users will be able to create blogs using
-a simple text form in a Rails view. The most important part of this phase will
-be pushing the app to Heroku and ensuring that everything works before moving on
-to phase 2.
+### Phase 1: User Authentication and Validations (~.5 day)
+I will implement user authentication + sessions through standard Rails 
+practices and a primary static page to host my Backbone application. I well 
+set up the the initial migrations, models, both DB and model level validations,
+as well as the necessary associations. At this point I will deploy to Heroku.
+
+**Primary duties**: Authentication, validating models + associations, deploying to Heroku.
 
 [Details][phase-one]
 
-### Phase 2: Viewing Blogs and Posts (~2 days)
-I will add API routes to serve blog and post data as JSON, then add Backbone
-models and collections that fetch data from those routes. By the end of this
-phase, users will be able to create blogs and view both blogs and posts, all
-inside a single Backbone app.
+### Phase 2: Creating/Viewing Shops and Reviews (~2 days)
+I will add API endpoints to serve shop, tag, review data as JSON,
+then add Backbone models and collections that fetch data from those routes. 
+I will set up the Backbone views so that users will be able to create and view
+shops, tags and reviews.
 
 [Details][phase-two]
 
-### Phase 3: Editing and Displaying Posts (~2 days)
-I plan to use third-party libraries to add functionality to the `PostForm` and
-`PostShow` views in this phase. First I'll need to add a Markdown editor to the
-`PostForm`, and make sure that the Markdown is properly escaped and formatted in
-the `PostShow` view. I also plan to integrate Filepicker for file upload so
-users can add images to blog posts.
+### Phase 3: Create, view, and edit a barber portfolio (~2 days)
+I will add API endpoints and jbuilder views to serve barber data as JSON, and
+then I will add a Backbone
+
 
 [Details][phase-three]
 
@@ -82,12 +83,13 @@ collections, but they will fetch from the new `search` routes.
 - [ ] Many-to-many association between barber + shop
 - [ ] Display shop by average rating 
 - [ ] Activity history (e.g. likes, reblogs, taggings)
-- [ ] Search by Barber
-- [ ] Reblogging
-- [ ] Multiple sessions/session management
-- [ ] User avatars
-- [ ] Typeahead search bar
-
+- [ ] Queries
+  - [ ] Search by barber
+- [ ] Barber Account
+  - [ ] Upload portfolio 
+- [ ] Read/leave views
+  - [ ] Barber/stylist
+- [ ] Modal barber portfolio
 [phase-one]: ./docs/phases/phase1.md
 [phase-two]: ./docs/phases/phase2.md
 [phase-three]: ./docs/phases/phase3.md
