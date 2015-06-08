@@ -1,24 +1,26 @@
-# Flux-capacitr
+# MyCut
 
 [Heroku link][heroku]
 
 [heroku]: http://flux-capacitr.herokuapp.com
 
 ## Minimum Viable Product
-Flux-capacitr is a clone of Tumblr built on Rails and Backbone. Users can:
+MyCut is a clone of Yelp built on Rails and Backbone. Users can:
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
-- [x] Create accounts
-- [x] Create sessions (log in)
-- [x] Create blogs
-- [x] Create blog posts
-- [ ] View blogs and posts
-- [ ] Subscribe to blogs
-- [ ] View a feed of subscribed blogs
-- [ ] Tag blog posts
-- [ ] Search for blogs by title
-- [ ] Search for posts by tag
+- [ ] Create accounts
+- [ ] Create sessions (log in)
+- [ ] View their account
+- [ ] Enter in their search queries, [find] and [near].
+- [ ] View 
+  - [ ] Barbershops/salons
+  - [ ] Barbers/stylists and their portfolio
+- [ ] User supplied photos
+- [ ] Read/leave reviews
+  - [ ] Barbeshop/salon
+  - [ ] Barber/stylist
+
 
 ## Design Docs
 * [View Wireframes][views]
