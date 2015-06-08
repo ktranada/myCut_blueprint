@@ -20,9 +20,12 @@
 * Reviews
 
 ### Views
-* SearchView (composite view, contains SearchResults (composite view, contains SearchResultItem subviews) subviews<br> and a singular MapItem view. 
+* searchView (composite view, contains searchResults (composite view, contains searchResultItem subviews) subviews<br> and a singular mapItem view. 
+* newReview
+* mewShopForm
 
 Is it bad practice to nest composite views?
 
 
 ## Gems/Libraries
+* Google map marker
