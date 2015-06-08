@@ -7,6 +7,14 @@ id          | integer   | not null, primary key
 shop_id     | integer   | not null, foreign key (references shops)
 name        | string    | not null
 
+## Pictures
+
+column name   | data type | details
+--------------|-----------|-----------------------
+id            | integer   | not null, primary key
+imageable     | references| polymorphic: true, index: true 
+
+
 ## Reviews
 
 column name   | data type | details
