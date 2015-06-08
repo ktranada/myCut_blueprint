@@ -12,8 +12,10 @@ name        | string    | not null
 column name   | data type | details
 --------------|-----------|-----------------------
 id            | integer   | not null, primary key
+file_name     | string    | not null
 imageable     | references| polymorphic: true, index: true 
 
+Can belong to a review, can belong to a barber.
 
 ## Reviews
 
