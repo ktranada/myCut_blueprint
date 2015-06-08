@@ -7,6 +7,18 @@ id          | integer   | not null, primary key
 shop_id     | integer   | not null, foreign key (references shops)
 name        | string    | not null
 
+## Reviews
+
+column name   | data type | details
+--------------|-----------|-----------------------
+id            | integer   | not null, primary key
+author_id     | integer   | not null, foreign key (references users)
+shop_id       | integer   | not null, foreign key (references shops)
+rating        | integer   | not null
+body          | string    | not null
+
+
+
 ## shops
 column name | data type | details
 ------------|-----------|-----------------------
